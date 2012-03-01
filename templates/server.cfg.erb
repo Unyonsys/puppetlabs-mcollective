@@ -28,3 +28,6 @@ factsource = <%= fact_source %>
 <% if fact_source == 'yaml' -%>
 plugin.yaml = <%= yaml_facter_source %>
 <% end -%>
+
+# Classes
+classesfile = /var/lib/puppet/state/classes.txt
